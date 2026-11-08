@@ -18,7 +18,9 @@ body {
 .title {
     color: var(--primary-color);
     margin-left: 25px;
-    font-family: var(--heading-font)
+    font-family: var(--heading-font);
+    font-size: 40px;
+    text-align: center;
 }
 
 .last-updated {
@@ -164,7 +166,7 @@ hr {
 
 .page-wrapper {
     display: flex;
-    max-width: 1080px;
+    max-width: auto;
     margin: 0 auto; 
     box-sizing: border-box;
 }
